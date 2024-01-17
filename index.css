@@ -1,25 +1,37 @@
-.option{
-    border: 1px solid black;
-    background-color: #cecece;
-    padding: 2%;
-    width: max-content; 
-    width: 500px;  
-}
-
-#menu{
+ul{
     display: flex;
     justify-content: space-evenly;
-    height: auto;
-    border: 1px solid black;
+    padding: 0%;
+    gap: 3px;
+}
+li{
+    background-color:  rgb(78, 115, 216);
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    flex-basis: 100%;
+    display: flex;
     align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    width: 100%;
+
 }
 
 #principal{
     display: flex;
     justify-content: space-evenly;
-    height: auto;
+    padding: 40px;
     border: 1px solid black;
     align-items: center;
-    background-color: #cecece;
+    background-color: rgb(78, 115, 216);
     font-size:xx-large;
+    margin: 0%;
+    color: white;
+
 }
