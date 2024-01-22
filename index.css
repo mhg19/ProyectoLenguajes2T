@@ -5,14 +5,18 @@ ul{
     gap: 3px;
 }
 li{
-    background-color:  rgb(78, 115, 216);
-    height: 30px;
+    background-color:  black;
+    height: 50px;
     text-align: center;
     list-style: none;
     flex-basis: 100%;
     display: flex;
     align-items: center;
+    
 }
+nav{
+    position: sticky;
+    top: 2px;}
 li a{
     text-decoration: none;
     font-family: sans-serif;
@@ -20,18 +24,48 @@ li a{
     font-weight: bolder;
     padding: 5px;
     width: 100%;
+    
 
 }
 
 #principal{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     padding: 40px;
     border: 1px solid black;
     align-items: center;
-    background-color: rgb(78, 115, 216);
-    font-size:xx-large;
+    background-color:  black;
+    font-size:larger;
     margin: 0%;
     color: white;
+}
+.pri{
+    
+}
 
+#productos1{
+    display:flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.item1{
+    border: 3px solid black;
+    padding: 7em;
+    height: 6em;
+    width: 4em;
+}
+#productos2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+.item2{
+    border: 3px solid black;
+    padding: 60px;
+    height: 4em;
+}
+
+h2{
+    background-color: aqua;
+    padding: 1em;
 }
