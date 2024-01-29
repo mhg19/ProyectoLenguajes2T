@@ -1,0 +1,90 @@
+#nav{
+    position: sticky;
+    top: 20000px;
+}
+#principal{
+    display: flex;
+    align-items: end;
+    padding: 7em;
+    border: 1px solid black;
+    align-items: center;
+    background-color:  black;
+    font-size:larger;
+    margin: 0%;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    gap: 3px;
+}
+li{
+    background-color:  black;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    width: 100%;
+}
+h2{
+    background-color: black;
+    color: wheat;
+    padding: 1em;
+}
+
+#productos1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.item1{
+    border: 1px solid gray;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+
+}
+.item1 img{
+width: 100%;
+}
+.item1 span{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo{
+    font-size: 2.5rem ;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+.precio{
+    font-size: 3rem ;
+    font-weight: bold;
+    color: rgb(187, 37, 37);
+}
+.subtitulo{
+    font-size: 2rem;
+}
+.letra{
+    font-size: small;
+    padding: 0.5rem;
+}
+.antes{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    color: #000;
+}
