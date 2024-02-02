@@ -70,3 +70,11 @@ h2{
     background-color: aqua;
     padding: 1em;
 }
+.item21{
+    background-image: url(/img/roma.jpg);
+    background-image: initial
+}
+P{
+    font-size: xx-large;
+    padding: 5%;
+}
