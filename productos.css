@@ -1,15 +1,14 @@
 body{
-    background-color: #ded5ff;
+    background-color: #efebfe;
 }
-#nav{
-    position: sticky;
-    top: 20000px;
-}
+
 
 .pri{
     display: flex;
-    align-items: center;
-    padding-right: 15em;
+    align-items:baseline;
+    padding-top: 1em;
+    padding-right: 50em;
+
 }
 h1{
     font-size: 2.7em;
@@ -24,14 +23,16 @@ h1{
 }
 #principal{
     display: flex;
-    align-items:baseline;
+    align-items:flex-start;
     border: 1px solid black;
-    padding-left: 5em;
     align-items: center;
     background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgba(122,30,89,1) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
     font-size:larger;
     margin: 0%;
     color: white;
+    flex-direction: column;
+    height: 11.3em;
+
 }
 
 ul{
@@ -67,6 +68,8 @@ h2{
     border-radius: 50px;
 
 }
+nav{width: 100%; /* Establecer el ancho al 100% */
+    box-sizing: border-box;}
 
 #productos1{
     display:grid;
