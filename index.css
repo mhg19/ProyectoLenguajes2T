@@ -1,11 +1,11 @@
 body{
-    background-color: #efebfe;
+    background-color: rgb(248, 240, 254)
 }
 
 
 .pri{
     display: flex;
-    align-items:baseline;
+    align-items:center;
     padding-top: 1em;
     padding-right: 50em;
 
@@ -18,7 +18,8 @@ h1{
 }
 
 .pri img{
-    width: 12em;
+    width: 6em;
+    
     
 }
 #principal{
@@ -50,6 +51,9 @@ li{
     display: flex;
     align-items: center; 
 }
+li:hover{
+    background-color: #FF004D;
+}
 
 li a{
     text-decoration: none;
@@ -58,6 +62,8 @@ li a{
     font-weight: bolder;
     padding: 5px;
     width: 100%;
+    text-shadow: 2px 2px 3px white;
+
 }
 h2{
     background-color: #FF004D;
@@ -68,7 +74,7 @@ h2{
     border-radius: 50px;
 
 }
-nav{width: 100%; /* Establecer el ancho al 100% */
+nav{width: 100%; 
     box-sizing: border-box;}
 
 
@@ -95,7 +101,7 @@ nav{width: 100%; /* Establecer el ancho al 100% */
 }
 
 h2{
-    background-color: #FF004D;
+    background-color: #003cff;
     color: white;
     padding: 1em;
     font-family: sans-serif;
@@ -110,4 +116,83 @@ h2{
 P{
     font-size: xx-large;
     padding: 5%;
+}
+footer{
+    background-color: #451d53;
+    height: 3em;
+    text-align: center;
+    padding-top: 1em;
+
+
+}
+footer a{
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer a:hover {
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+#sn{
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 2em;
+
+}
+#sn h3{
+    font-size: 1.8em;
+    text-align: center;
+    font-family: sans-serif;
+    color: #003cff;
+    font-weight: bolder;
+    text-shadow: 3px 3px 7px #451d53;
+
+
+}
+#sn p{
+    font-size:1em;
+    font-family: sans-serif;
+    padding: 6px;
+    text-align: justify;
+    padding: 1em;
+    font-weight: bold;
+    color: #1c003d;
+
+}
+
+#f1{
+    display: flex;
+}
+#f1 img{
+    width: 100%;
+}
+#mp{
+display: flex;
+flex-direction: column;
+padding: 4em;
+margin: 3em;
+background-color: #1c003d;
+color: bisque;
+width: 50%;
+border-radius: 50px;
+}
+
+.tit{
+    padding: 0.5em;
+    background-color: white;
+    color: #451d53;
+    border-radius: 30px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 7px #451d53;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    margin-bottom: 2em;
 }
