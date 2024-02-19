@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(248, 240, 254)
+}
+
+
+.pri{
+    display: flex;
+    align-items:center;
+    padding-top: 1em;
+    padding-right: 50em;
+
+}
+h1{
+    font-size: 2.7em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 3px 3px 7px black;
+
+}
+
+.pri img{
+    width: 6em;
+    
+    
+}
+#principal{
+    display: flex;
+    align-items:flex-start;
+    border: 1px solid black;
+    align-items: center;
+    background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgb(255, 87, 15) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
+    font-size:larger;
+    margin: 0%;
+    color: white;
+    flex-direction: column;
+    height: 11.3em;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    gap: 3px;
+}
+li{
+    background-color:  #1c003d;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center; 
+}
+li:hover{
+    background-color: orangered;
+}
+
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    width: 100%;
+    text-shadow: 2px 2px 3px white;
+
+}
+h2{
+    background-color: orangered;
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 7px #451d53;
+    border-radius: 50px;
+
+}
+nav{width: 100%; 
+    box-sizing: border-box;}
+    #selec{
+        background-color: orangered;
+    }
+    P{
+        font-size: xx-large;
+        padding: 5%;
+    }
+    footer{
+        background-color: #451d53;
+        height: 3em;
+        text-align: center;
+        padding-top: 1em;
+    
+    
+    }
+    footer a{
+        color: wheat;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    footer a:hover {
+        color: yellow;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .lab{
+        font-size: large;
+        color:#1c003d;
+        font-weight: bold;
+    }
+    fieldset{
+        width: 30%;
+        margin: 3%;
+        border: 3px dotted orangered;
+    }
+    legend{
+        color: orangered;
+        font-size: x-large;
+        font-weight: bolder;
+    }

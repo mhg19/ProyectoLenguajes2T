@@ -26,7 +26,7 @@ h1{
     align-items:flex-start;
     border: 1px solid black;
     align-items: center;
-    background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgba(122,30,89,1) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
+    background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgb(255, 87, 15) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
     font-size:larger;
     margin: 0%;
     color: white;
@@ -62,10 +62,10 @@ li a{
     text-shadow: 2px 2px 3px white;
 }
 li:hover{
-    background-color: #FF004D;
+    background-color: orangered;
 }
 h2{
-    background-color: #FF004D;
+    background-color: orangered;
     color: white;
     padding: 1em;
     font-family: sans-serif;
@@ -114,7 +114,7 @@ width: 100%;
 .precio{
     font-size: 2.5rem ;
     font-weight: bold;
-    color: #FF004D;
+    color: orangered;
     text-shadow: 3px 3px 7px #451d53;
 
 }
@@ -150,4 +150,8 @@ footer a:hover {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+}
+
+#selec{
+    background-color: orangered;
 }

@@ -27,7 +27,7 @@ h1{
     align-items:flex-start;
     border: 1px solid black;
     align-items: center;
-    background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgba(122,30,89,1) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
+    background: radial-gradient(circle, rgba(28,0,61,1) 0%, rgba(45,45,152,1) 26%, rgb(255, 87, 15) 50%, rgba(45,45,152,1) 73%, rgba(28,0,61,1) 100%);
     font-size:larger;
     margin: 0%;
     color: white;
@@ -52,7 +52,7 @@ li{
     align-items: center; 
 }
 li:hover{
-    background-color: #FF004D;
+    background-color: orangered;
 }
 
 li a{
@@ -66,7 +66,7 @@ li a{
 
 }
 h2{
-    background-color: #FF004D;
+    background-color: orangered;
     color: white;
     padding: 1em;
     font-family: sans-serif;
@@ -195,4 +195,7 @@ border-radius: 50px;
 iframe{
     width: 100%;
     margin-bottom: 2em;
+}
+#selec{
+    background-color: orangered;
 }
